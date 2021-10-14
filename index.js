@@ -2,7 +2,7 @@ const AWS = require('aws-sdk');
 AWS.config.update({
     region: 'ap-southeast-1'
 });
-//auto-deploy123
+//auto-deploy12321
 const dynamodb = new AWS.DynamoDB.DocumentClient();
 const dynamodbTableName = 'TB_COMPANIES';
 const companiesPath = '/companies';
